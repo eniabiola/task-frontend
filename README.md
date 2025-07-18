@@ -14,10 +14,11 @@ A simple and modern task management frontend built with **Vue 3**, **Vite**, and
 
 ## 🛠 Tech Stack
 
-- [Vue 3](https://vuejs.org/)
-- [Vite](https://vitejs.dev/)
-- [Bootstrap 5](https://getbootstrap.com/)
-- [Vue Router](https://router.vuejs.org/)
+- [Vue 3](https://vuejs.org/) - Composition API
+- [Vite](https://vitejs.dev/) - Fastdev build tool
+- [Bootstrap 5](https://getbootstrap.com/) - UI styling
+- [Vue Router](https://router.vuejs.org/) - SPA routing
+- [Axios](https://axios-http.com/) — API requests
 
 ## 📁 Project Structure
 
@@ -72,9 +73,9 @@ Update the API service or fetch calls to use `import.meta.env.VITE_API_BASE_URL`
 ## ✅ Todos
 
 - [x] Auth views (login/register)
-- [x] Task list and detail views
-- [x] Update task status
-- [x] View task status history
+- [x] View and manage tasks
+- [x] Status change with audit history
+- [x] Role-based sidebar menu items
 - [ ] Global error handling
 - [ ] Add user feedback/loading indicators
 - [ ] Responsive polish
